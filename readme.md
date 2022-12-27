@@ -1,8 +1,6 @@
-# Awesome Paper Template
+# Awesome medical image papers
 
-This is an awesome computer vision paper template. Use this template for your own purpose.
-
-Please introduce your project here.
+This repository contains the medical image paper reading lists. 
 
 
 
@@ -11,48 +9,70 @@ Please introduce your project here.
 ## Overview
 
 - [introduction](#introduction)
-- [paper category 1](#paper-category-1)
-  - [paper subcategory 1](#paper-subcategory-1)
-- [paper category 2](#paper-category-2)
-  - [paper subcategory 1](#paper-subcategory-1)
+- [Self-supervised learning](#self_supervised_learning)
+  - [Classification](#classification)
+  - [Segmentation](#segmentation)
+- [Transformer](#transformer)
+  - [Segmentation](#segmentation)
 
 
 
 ## Introduction
 
-Please describe your subject in a short paragraph or table or picture.
+This paper list contains papers related to the deep-learning approach to solve problems in the medical image domain.
+
+- Other awesome paper lists:
+  - [Medical awesome SSL github](https://github.com/tqxli/self_supervised_learning_in_medical_imaging)
 
 
 
-## Paper Category 1
+## Self-supervised learning
 
-Please describe this category with easy words.
-
-
-
-### Paper subcategory 1
-
-Please describe this subcategory with easy words.
+Papers about self-supervised learning (SSL) in the medical image domain.
 
 
 
-- **PaperNickName**: "paper title", publication, year [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
+### Classification
 
-- **ResNet**: "Deep Residual Learning for Image Recognition", CVPR, 2016 [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-
-  
-
-## Paper Category 2
-
-Please describe this subcategory with easy words.
+Apply SSL to improve classification performance in the medical image domain. 
 
 
 
-### Paper subcategory 1
-
-Please describe this subcategory with easy words.
+- **MICLe**: "Big Self-Supervised Models Advance Medical Image Classification", ICCV, 2021 [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Azizi_Big_Self-Supervised_Models_Advance_Medical_Image_Classification_ICCV_2021_paper.pdf)] [[code](https://github.com/rjrobben/MICLe_pytorch)] [[summary](summary/MICLe.md)]
 
 
 
-- **PaperNickName**: "paper title", publication, year [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-- **ResNet**: "Deep Residual Learning for Image Recognition", CVPR, 2016 [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
+### Segmentation
+
+Apply SSL to improve segmentation performance in the medical image domain. 
+
+
+
+- **SwinUNETR**: "Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis", CVPR, 2022 [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Self-Supervised_Pre-Training_of_Swin_Transformers_for_3D_Medical_Image_Analysis_CVPR_2022_paper.pdf)] [[code](https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/swin_unetr_btcv_segmentation_3d.ipynb)] [[summary](summary/SwinUNETR.md)]
+
+
+
+## Transformer
+
+Papers about transformer architecture in the medical image domain.
+
+
+
+### Classification
+
+Apply Transformer architecture to improve classification performance in the medical image domain. 
+
+
+
+- *Please add paper lists here.*
+
+
+
+### Segmentation
+
+Apply Transformer architecture to improve segmentation performance in the medical image domain. 
+
+
+
+- **TransUNet**: "Transformers Make Strong Encoders for Medical Image Segmentation", ArXiv, 2021 [[paper](https://arxiv.org/pdf/2102.04306.pdf)] [[code](https://github.com/Beckschen/TransUNet)] [[summary](summary/TransUNet.md)]
+- **Swin-Unet**: "Unet-like Pure Transformer for Medical Image Segmentation", ArXiv, 2021 [[paper](https://arxiv.org/pdf/2105.05537)] [[code](https://github.com/HuCaoFighting/Swin-Unet)] [[summary](summary/SwinUnet.md)]
