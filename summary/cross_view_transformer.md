@@ -16,7 +16,7 @@
 - Method: The proposed method could be summarized into 2 parts.
 
   - Cross-view transformer: Q(target), K,V(source) cross attention
-- Token-based attention: Reduce the number of source tokens to the small integer R by using a weight matrix.
+  - Token-based attention: Reduce the number of source tokens to the small integer R by using a weight matrix.
 
 
 
