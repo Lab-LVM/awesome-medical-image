@@ -76,4 +76,4 @@ Apply Transformer architecture to improve segmentation performance in the medica
 
 
 - **TransUNet**: "Transformers Make Strong Encoders for Medical Image Segmentation", ArXiv, 2021 [[paper](https://arxiv.org/pdf/2102.04306.pdf)] [[code](https://github.com/Beckschen/TransUNet)] [[summary](summary/TransUNet.md)]
-- **Swin-Unet**: "Unet-like Pure Transformer for Medical Image Segmentation", ArXiv, 2021 [[paper](https://arxiv.org/pdf/2105.05537)] [[code](https://github.com/HuCaoFighting/Swin-Unet)] [[summary](summary/SwinUnet.md)]
+- **Swin-Unet**: "Unet-like Pure Transformer for Medical Image Segmentation", ArXiv, 2021 [[paper](https://arxiv.org/pdf/2105.05537)] [[code](https://github.com/HuCaoFighting/Swin-Unet)] [[summary](summary/Swin-Unet.md)]
