@@ -66,7 +66,7 @@ Apply Transformer architecture to improve classification performance in the medi
 
 - **AnaXNet**: "Anatomy Aware Multi-label Finding Classicationin Chest X-ray", MICCAI, 2021 [[paper](https://arxiv.org/pdf/2105.09937)] [not available] [[summary](summary/anaxnet.md)]
 - **Cross-View Transformer**: "Multi-view Analysis of Unregistered Medical Images Using Cross-View Transformers", MICCAI, 2021 [[paper](https://arxiv.org/pdf/2103.11390)] [not available] [[summary](summary/cross_view_transformer.md)]
-
+- **MICLe**: "Big Self-Supervised Model Advance Medical Image Classification", MICCAI, 2021 [[paper](https://arxiv.org/pdf/2101.05224.pdf)] [not available] [[summary](summary/MICLe.md)]
 
 
 ### Segmentation
